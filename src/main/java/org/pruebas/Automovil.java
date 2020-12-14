@@ -2,10 +2,18 @@ package org.pruebas;
 
 public class Automovil {
 	
+	
+	
 	private String marca;
 	private String modelo;
 	
 	
+	
+	public Automovil(String marca, String modelo) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+	}
 	public String getMarca() {
 		return marca;
 	}
